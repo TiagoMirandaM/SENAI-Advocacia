@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.allContentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.divSecoes{
+    max-width: 120vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 180px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.divBanner{
+    background-image: url(img/capa.jpg);
+    background-size: cover;
+    height: 100%;
+    padding-right: 15%;  
+    padding-top: 5%;
+    text-align: right;
+}
+
+.secaoCabecalho{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    width: 100%;
+    height: 655px;
+}
+
+.imgBanner{
+    width: 100%;
+}
+
+.secaoSobre{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.divImgs{
+    display: flex;
+    column-gap: 5px;
+}
+
+.imgSecaoSobre{
+    max-width: 300px;
+}
+
+.pSecaoSobre{
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: black;
+    padding-left: 10px;
+}
+
+.secaoAtuacao{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.secaoContato{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.h1Secoes{
+    text-align: center;
+}
